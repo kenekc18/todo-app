@@ -1,0 +1,51 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    background-color:aquamarine;
+    height:300px;
+    width:350px;
+    margin-top: 60px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#textfield{
+    height:23px;
+}
+
+button{
+    height:27px;
+}
+
+.bar{
+    visibility: hidden;
+}
+
+.bar-02{
+    visibility: visible;
+    width:180px;
+    height: 30px;
+    margin: 12px 0;
+    padding: 0 10px;
+    background-color: azure;
+    display: flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+
+.bar-container{
+    display:block;
+}
+
+.para-styling{
+    display:flex;
+    align-items: center;
+}
