@@ -1,7 +1,6 @@
 let input = document.getElementById('textfield');
 let btn = document.getElementById('addtaskbtn');
 let conbox = document.getElementById('newbar');
-let check = document.getElementById('done');
 
 btn.addEventListener('click', function(){
     var newdiv = document.createElement('div');
@@ -23,8 +22,7 @@ btn.addEventListener('click', function(){
     });
 
     newdiv.addEventListener('dblclick', function(){
-        newdiv.classList.remove('bar-02');
-        newdiv.classList.add('bar');
+         conbox.removeChild(newdiv);
     })
 
     input.value = "";
